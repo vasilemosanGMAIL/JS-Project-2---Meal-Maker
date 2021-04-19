@@ -1,0 +1,163 @@
+body {
+  font: 15px/1.5 "Reggae One", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #e7e7e9;
+}
+/* Global*/
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background: #e8de09;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+/* Header*/
+header {
+  background: #0b4d76;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #e8491d 4px solid;
+}
+
+header a {
+  color: #e8de09;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+/*Showcase*/
+
+#showcase {
+  min-height: 460px;
+  background: url("../img/showcase.png") no-repeat 0 -385px;
+  text-align: right;
+  color: #e8491d;
+}
+#showcase h1 {
+  margin-top: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 14px;
+  font-weight: bold;
+}
+/*Newsletter*/
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #0b4d76;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/*Boxes*/
+
+#boxes {
+  margin-top: 20px;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 90px;
+  border-radius: 50px;
+}
+
+/*about*/
+.button_2 {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray;
+}
+.button_2:hover {
+  background-color: orangered;
+  color: white;
+}
+article#main-col {
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+  font-family: "Akaya Telivigala";
+  font-size: 20px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+aside .icon {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+}
+footer {
+  padding: 20px;
+  margin-top: 260px;
+  color: #e8491d;
+  background-color: #0b4d76;
+  text-align: center;
+}
